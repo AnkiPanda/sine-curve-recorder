@@ -1,0 +1,65 @@
+.sine-wave-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sine-wave-div > button{
+    margin: 20px;
+    background-color:cadetblue;
+    border: none;
+    border-radius: 8px;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.sine-wave-div > button:hover{
+    background-color:rgb(62, 195, 199);
+}
+
+#sine-wave-svg {
+    background-color: #f0f0f0; /* Set SVG background color */
+    border: 1px solid #ccc; /* Add border for visualization */
+  }
+  
+  path {
+    fill: none;
+    stroke: black;
+    stroke-width: 2;
+  }
+  
+  .axis text {
+    font-size: 12px;
+  }
+  
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #ccc;
+    shape-rendering: crispEdges;
+  }
+  
+  
+  
+  .enlarge {
+    transform: scale(1.5);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .reduce {
+    transform: scale(0.5);
+    transition: transform 0.3s ease-in-out;
+  }
+  .sine-wave-svg {
+    background-color: #f0f0f0; /* Background color of SVG */
+    border: 1px solid #ccc; /* Border around SVG */
+  }
+  
+  .ball-animation {
+    transition: r 0.5s ease-in-out; /* Smooth transition for size change */
+  }
+  
+  
